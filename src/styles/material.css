@@ -1,0 +1,78 @@
+/* Overriding the default Material UI Classes */
+
+/* Typography */
+.MuiTypography-h1 {
+  @apply text-3xl leading-tight;
+}
+
+.MuiTypography-h2 {
+  @apply text-2xl leading-tight;
+}
+
+.MuiTypography-h3 {
+  @apply text-xl;
+}
+
+.MuiTypography-h4 {
+  @apply text-lg;
+}
+
+.MuiTypography-h5 {
+   @apply text-base font-bold;
+}
+
+.MuiTypography-h6 {
+  @apply text-base font-bold;
+}
+
+.MuiTypography-subtitle2 {
+  @apply text-sm text-gray-500;
+}
+
+.MuiTypography-subtitle1 {
+  @apply text-sm font-bold;
+}
+
+@screen sm {
+  .MuiTypography-h1 {
+    @apply text-4xl;
+  }
+
+  .MuiTypography-h2 {
+    @apply text-3xl leading-normal;
+  }
+
+  .MuiTypography-h3 {
+    @apply text-2xl;
+  }
+
+  .MuiTypography-h4 {
+    @apply text-xl;
+  }
+
+  .MuiTypography-h5 {
+    @apply text-lg;
+  }
+
+  .MuiTypography-h6 {
+    @apply text-base;
+  }
+
+  .MuiTypography-subtitle2 {
+    @apply text-base text-gray-500;
+  }
+
+  .MuiTypography-subtitle1 {
+    @apply text-base font-bold;
+  }
+}
+
+/* Toggle Button */
+
+.MuiToggleButton-root {
+  @apply border-primary
+}
+
+.MuiToggleButton-root.Mui-selected {
+  @apply bg-primary text-white hover:bg-primary
+}
